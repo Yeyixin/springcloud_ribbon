@@ -24,7 +24,7 @@
 * delete() 函数
 
 ## 参数配置
-* 全局配置，ribbon.<key>=<value>
+* 全局配置
 > 如配置连接超时时间：ribbon.ConnectTimeout=250
 * 指定客户端的配置方式
 > 如为客户端指定具体的实例清单(加入不用eureka)：hello-service.ribbon.listOfServers=localhost:8001,localhost:8002,localhost:8003
